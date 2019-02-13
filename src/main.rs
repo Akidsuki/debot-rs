@@ -10,8 +10,8 @@ struct Handler;
 
 impl EventHandler for Handler {
     fn message(&self, _: Context, msg: Message) {
-        if msg.content == "!ping" {
-            if let Err(why) = msg.channel_id.say("Pong!") {
+        if msg.content == "ぬるぽ" {
+            if let Err(why) = msg.channel_id.say("ｶﾞｯ") {
                 println!("Error sending message: {:?}", why);
             }
         }
