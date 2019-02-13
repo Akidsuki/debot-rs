@@ -1,0 +1,9 @@
+[package]
+name = "debot-rs"
+version = "0.1.0"
+authors = ["akidsuki <akidsuki@palladion.jp>"]
+edition = "2018"
+
+[dependencies]
+serenity = "0.5"
+kankyo = "0.2.0"
